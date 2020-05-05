@@ -16,7 +16,7 @@ on:
     branches:
       - master
     paths:
-      - 'config/offical/*.config'
+      - 'openwrt/config/Xiaomi-offical-openwrt.config'
 #  schedule:
 #    - cron: 0 8 * * 5
 #  watch:
@@ -25,7 +25,7 @@ on:
 env:
   REPO_URL: https://github.com/openwrt/openwrt
   REPO_BRANCH: master
-  CONFIG_FILE: config/offical/*.config
+  CONFIG_FILE: openwrt/config/Xiaomi-offical-openwrt.config
   DIY_SH: scripts/offical-openwrt.sh
   FEEDS_CONF: feeds.conf.default
   SSH_ACTIONS: false
